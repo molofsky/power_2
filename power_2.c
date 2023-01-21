@@ -4,11 +4,12 @@
 * @version 10/5/22
 */
 
+#include <stdbool.h> // boolean library
 #include <stdio.h>
 #include <stdlib.h>
 
 /* Helper function to be called by main. Tells whether a number is a power of two */
-power_2(int n) {
+bool power_2(int n) {
   return (n & (n - 1) == 0) && n != 0;
 }
 
