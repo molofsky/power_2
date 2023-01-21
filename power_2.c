@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Helper function to tell whether a number is a power of two using bit manipulation */
+/* Helper function to be called by main. Tells whether a number is a power of two */
 power_2(int n) {
   return (n & (n - 1) == 0) && n != 0;
 }
