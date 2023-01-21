@@ -1,4 +1,5 @@
-/* 
+/* A non-intuitive way to find a power of two with bit manipulation
+*
 * @author Adrian Molofsky
 * @version 10/5/22
 */
