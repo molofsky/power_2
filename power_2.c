@@ -10,7 +10,7 @@
 
 /* Helper function to be called by main. Tells whether a number is a power of two */
 bool power_2(int n) {
-  return (n & (n - 1) == 0) && n != 0;
+  return (n & (n - 1) == 0) && (n != 0);
 }
 
 int main(int argc, char *argv[]) {
